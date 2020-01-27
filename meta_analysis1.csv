@@ -1,6 +1,6 @@
 study,n,values,test,df,t,hedge g,,
 "Chetelat, 2017",6 experts vs. 67,,,,,,,graph
-"Engen, 2018",17 experts vs 15,p=0.029,t test,,,,,no t value
+"Engen, 2018",17 experts vs 15,p=0.029,t test,30,1.971,,,no t value
 "Fahmy, 2018",10 MBI vs 9,df = 9; t = 3.063; p = .014,t test,9,3.063,1.3443,,
 "Fayed, 2017",11 experts vs 10,"p=0.03, t=6.85",t test,,6.85,2.8733,,
 "Friedel, 2015",82 adolescent,"F(1, 77) = 5.31, b = 0.284, p = 0.024",repeated measures ANOVA,77,2.304,,,what esc_ to use
@@ -10,7 +10,7 @@ study,n,values,test,df,t,hedge g,,
 "Holzel, 2007",20 experts vs 20,t = 3.77; P = 0.027,t test,,3.77,1.1685,,
 "Kober, 2017",20 experts vs 20,"T = 5.99, Df = 16,  p = 0.001)",t test,16,5.99,1.8566,,
 "Kumar, 2013",14 experts vs 14,t (13) = .36 P < .35,t test,13,0.36,0.1321,,
-"Kurth, 2014",50 experts vs 50,,,,,,,figure
+"Kurth, 2014",50 experts vs 50,mean x+/- vs y+/-,,98,,,,figure
 "Kurth, 2015",50 experts vs 50,"F(1,96)= 4.731, p= 0.032",multivariate analyses; age = covariate,96,0.855,,,what esc_ to use
 "Lazar, 2005",20 experts vs 15,"r(18)= .72, P=0.001",correlation,18,,2.0485,,
 "Leung, 2012",10 experts vs 15,"t= 4.87, p= .015",t test,,4.87,1.9226,,
