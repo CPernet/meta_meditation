@@ -19,7 +19,7 @@ study,n,values,test,df,t,hedge g,,
 "Luders, 2012",30 experts vs 30,7.2% larger p= .003,independent sample t-tests,58,2.85,,,
 "Luders, 2013",50 experts vs 50,F = 4.786; p = 0.031,"MANCOVA, gender, age and brain size",95,2.188,,,
 "Luders, 2015 Forever.. younger",50 experts vs 50,"t=3.91, p = 0.05","group-by-age interactions, sex",96,3.91,,,
-"Luders, 2015 Larger...men",30 experts vs 30,mean x+/- vs y+/-,sex ,57,1.387,,,table
+"Luders, 2015 Larger...men",30 experts vs 30,medit: 3404.73 ± 311.18 contr: 3192.80 ± 239.73,only females,29,4.14,,,table
 "Murakami, 2012",19 students,"t=3.72, p= .005",sex and age,16,3.72,1.1816,,
 "Pagnoni, 2007",13 experts vs 13,"t= 5.45, p=0.001","ANCOVA, head size",23,5.45,,,
 "Taren, 2013",155 adults,"r=-0.175, p=0.035","correlation, BDI, NEO-N, age, total GM",149,-,0.3546,,
