@@ -1,0 +1,132 @@
+//Reference=MNI
+//Engel, 2018:Structural changes in socio-affective networks: Multi-modal MRI findings in long-term meditation practitioners.
+//Subjects=15
+-29 24  4
+24  60  2
+
+//Reference=MNI
+//Fahmy, 2018:Mindfulness-based interventions modulate structural network strength in patients with opioid dependence.
+//Subjects=9
+-22.18  9.86	-8.52
+26.42	11.32	-8.91
+-3.01	-19.7	5.6
+4.37	-15.51	4.16
+-53.75	-25.14 -7.05
+46.81	-63.48	7.19
+-33.77	0.17	-10.01
+32.76	11.44	-7.84
+46.82	-66.83	4.09
+-36.91	-6.16	-9.56
+39.15	1.12	-4.96
+-12.66	16.92	2.04
+-15.84	5.17	-17.12
+20.07	7.57	-17.49
+48.78	6.34	44.57
+-46.54	11.52	-29.58
+-25.16	0.68	48.73
+29.73	13.54	44.19
+-25.42	45.92	12.33
+30.49	54.63	-8.57
+-41.24	33.83	6.6
+45.39	36.65	5.89
+45.56	9.84	33.26
+-8.55	47.35	-1.18
+4.13	34.95	-15.95
+-51.43	-45.53	38.73
+-8.21	-2.71	59.96
+23.39	13.49	44.23
+
+//Reference=MNI
+//Grant, 2010:Cortical Thickness and Pain Sensitivity in Zen Meditators.
+//Subjects=17
+4	16	29
+57	-25	25
+-52	-27	19
+
+//Reference=MNI
+//Grant, 2013:Cortical thickness, mental absorption and meditative practice: Possible implications for disorders of attention.
+//Subjects=18
+-7	9	69
+-45	-35	26
+-4	-53	55
+
+//Reference=MNI
+//Hernandez, 2016:Increased Grey Matter Associated with Long-Term Sahaja Yoga Meditation: A Voxel-Based Morphometry Study.
+//Subjects=23
+30	10	-15
+52	-43	-21
+
+//Reference=MNI
+//Holzel, 2008:Investigation of mindfulness meditation practitioners with voxel-based morphometry.
+//Subjects=20
+38	-32	-12
+36	12	6
+
+//Reference=MNI
+//Kumar, 2013:Effect of SOHAM Meditation on Human Brain: A Voxel-Based Morphometry Study.
+//Subjects=14
+0 -39 -49
+-38 1 36
+-8 -3 38
+
+//Reference=MNI
+//Kurth, 2014:Shifting brain asymmetry: the link between meditation and structural lateralization.
+//Subjects=50
+-3	-74	42
+
+//Reference=MNI
+//Leung, 2013:Increased gray matter volume in the right angular and posterior parahippocampal gyri in loving-kindness meditators.
+//Subjects=10
+41	-63	46
+18	-10	-27
+
+//Reference=MNI
+//Lu, 2014: The Brain Structure Correlates of Individual Differences in Trait Mindfulness: A Voxel-Based Morphometry Study.
+//Subjects=247
+12 -44 38
+
+//Reference=MNI
+//Luders, 2009:The underlying correlates of long-term meditation: Larger hippocampal and frontal volumes of gray matter.
+//Subjects=22
+28	41	-3
+
+//Reference=MNI
+//Luders, 2013: Meditation effects within the hippocampal complex revealed by voxel-based morphometry and cytoarchitectonic probabilistic mapping.
+//Subjects=50
+-18	-37	-11
+
+//Reference=MNI
+//Luders, 2015:Forever Young(er): potential age-defying effects of long-term meditation on gray matter atrophy.
+//Subjects=30
+-42	-84	-17
+60	-4	-12
+2	48	-12
+-52	-24	10
+-6	-4	51
+-18	-61	-60
+51	-75	-12
+2	-4	-2
+38	-45	49
+
+//Reference=MNI
+//Murakami, 2012:The Structure of Mindful Brain.
+//Subjects=19
+37	10	-15
+13	-7	-14
+
+//Reference=MNI
+//Pagnoni, 2007: Age effects on gray matter volume and attentional performance in Zen meditation
+//Subjects=13
+-33	-5	2
+
+//Reference=MNI
+//Vestergaard-Poulsen, 2009:Long-term meditation is associated with increased gray matter density in the brain stem.
+//Subjects=10
+-5	-46	-51
+5	-45	-51
+3	-37	-58
+-24	50	4
+-44	28	6
+33	-59	-36
+-29	-58	-37
+-52	-19	-29
