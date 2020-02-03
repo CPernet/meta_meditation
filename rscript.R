@@ -15,7 +15,7 @@ devtools::install_github("MathiasHarrer/dmetar")
 
 ?esc_t
 
-### t-tests
+### t-tests maxima
 
 #Chetelat, 2017
 esc_t(t = 2.236, grp1n = 6, grp2n = 67,es.type="g")
@@ -87,7 +87,7 @@ esc_t(t = 5.45, grp1n = 13, grp2n = 13,es.type="g")
 
 
 
-### regression
+### regression maxima
 
 #Friedel, 2015
 esc_B(b=0.277,sdy=0.807,grp1n = 82,grp2n = 82,es.type = "g")
@@ -99,7 +99,7 @@ esc_B(b=0.116,sdy=5,grp1n = 19,grp2n = 19,es.type = "g")
 
 
 
-### correlation
+### correlation maxima
 
 #Lazar, 2005
 esc_rpb(r = -0.05, grp1n = 20, grp2n = 15, es.type = "g")
@@ -149,13 +149,14 @@ esc_t(t = 3.51, grp1n = 20, grp2n = 20,es.type="g")
 
 #Luders, 2009
 esc_t(t = 0.3515, grp1n = 22, grp2n = 22,es.type="g")
+# 0.1041
 
 #Luders, 2015 Forever.. younger
 esc_t(t = 3.59, grp1n = 50, grp2n = 50,es.type="g")
+# 0.7125
 
 
-
-### left insula
+### t-test left insula
 
 #Fahmy, 2018
 esc_t(t = 2.765, grp1n = 10, grp2n = 9,es.type="g")
@@ -175,11 +176,9 @@ esc_t(t = 5.45, grp1n = 13, grp2n = 13,es.type="g")
 
 
 
-### meta
+### meta maxima
 
 madata <- random_effect
-
-
 
 m.hksj <- metagen(TE,
                   seTE,
@@ -187,11 +186,51 @@ m.hksj <- metagen(TE,
                   studlab = paste(Author),
                   comb.fixed = FALSE,
                   comb.random = TRUE,
-                  method.tau = "SJ",
+                  method.tau = "ML",
                   hakn = TRUE,
                   prediction = TRUE,
                   sm = "SMD")
 m.hksj
 
 
-?metagen
+funnel(m.hksj,xlab = "Hedges' g")
+
+forest(m.hksj)
+
+
+
+### meta right insula
+
+madata_r <- right_insula
+
+m.hksj_r <- metagen(TE,
+                  seTE,
+                  data = madata_r,
+                  studlab = paste(Author),
+                  comb.fixed = FALSE,
+                  comb.random = TRUE,
+                  method.tau = "ML",
+                  hakn = TRUE,
+                  prediction = TRUE,
+                  sm = "SMD")
+
+m.hksj_r
+
+
+
+### meta left insula
+
+madata_l <- left_insula
+
+m.hksj_l <- metagen(TE,
+                  seTE,
+                  data = madata_l,
+                  studlab = paste(Author),
+                  comb.fixed = FALSE,
+                  comb.random = TRUE,
+                  method.tau = "ML",
+                  hakn = TRUE,
+                  prediction = TRUE,
+                  sm = "SMD")
+
+m.hksj_l
