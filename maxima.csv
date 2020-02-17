@@ -13,12 +13,12 @@ study,n,extracted/reported values,test,df,t,hedge g
 "Luders, 2012",30 experts vs 30,mean 3521 vs 3269,t-test,58,3.119,0.7949
 "Luders, 2013",50 experts vs 50,mean 3279.81 vs 3199.38,t-test,98,1.8798,0.3731
 "Luders, 2015 Larger...men",15 experts vs 15,mean 3638.2 vs 3346,t-test,28,3.9161,1.3913
-"Vestergaard-Poulsen, 2009",10 experts vs 10,"Z = 5.49, p= 0.05",t-test,17,104.9,44.9305
 "Luders, 2015 Forever.. younger",50 experts vs 50,t=3.89,t-test (gp * age interactions adjusted for sex and TIV),96,3.89,0.772
+"Vestergaard-Poulsen, 2009",10 experts vs 10,"Z = 5.49, p= 0.05",t-test,17,104.9,44.9305
 "Pagnoni, 2007",13 experts vs 13,t=5.45,t-test (gp * age interaction adjusted for TIV),23,5.45,2.0702
 "Friedel, 2015",82 adolescent,"b = 0.277, p = 0.01 std MASS 0.807",regression (adjusted for age and total avg thickness),78,nil,0.3458
 "Murakami, 2012",19 students,"b=0.116, p= .005 std score 6.0860",regression (adjusted for age and sex),16,nil,0.0224
+"Lu, 2014",247,r=0.169 p=0.008,regression (adjusted for gender and TIV),245,2.6839,0.3424
 "Lazar, 2005",20 experts vs 15, -0.05 vs -0.76,Pearson correlations,13,75.1,2.2101
 "Kurth, 2014",50 experts,r=0.5,Pearson correlation ,48,4,1.1458
 "Taren, 2013",155 adults,"r=-0.175, p=0.035",Pearson correlation,143,2.198,0.3546
-"Lu, 2014",247,r=0.169 p=0.008,regression (adjusted for gender and TIV),245,2.6839,0.3424
