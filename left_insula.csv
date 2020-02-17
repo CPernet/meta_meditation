@@ -1,1 +1,5 @@
-study,n,values,df,t,hedge g"Fahmy, 2018",10 MBI vs 9,df = 9; t = 2.765; p=.022,9,2.765,"Grant, 2010",17 experts vs 18,"t=2,55",30,"2,55","Luders, 2015 Forever.. younger",50 experts vs 50,t=3.91,96,3.91,"Pagnoni, 2007",13 experts vs 13,t=5.45,24,5.45,
+Author,n,values,df,t,TE,seTE
+"Fahmy, 2018",10 MBI vs 9,df = 9; t = 2.765; p=.022,9,2.765,1.2135,0.5036
+"Grant, 2010",17 experts vs 18,"t=2,55",30,2.55,0.8427,0.3536
+"Luders, 2015 Forever.. younger",50 experts vs 50,t=3.91,96,3.91,0.776,0.2075
+"Pagnoni, 2007",13 experts vs 13,t=5.45,24,5.45,2.0702,0.4917
