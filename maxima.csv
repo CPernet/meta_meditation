@@ -1,4 +1,4 @@
-study,n,extracted/reported values,test,df,t,hedge g
+study,n,extracted/reported values,test,df,t,hedges' g
 "Chetelat, 2017",6 experts vs. 67,"medit.=0.093, control=0.005 ",t-test on extracted values (already adjusted for brain size),71,2.236,0.9427
 "Engen, 2018",17 experts vs 15,p=0.029,t-test,30,1.971,0.6806
 "Fahmy, 2018",10 MBI vs 9,df = 9; t = 3.063; p = .014,t-test,9,3.063,1.3443
