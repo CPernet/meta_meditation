@@ -1,0 +1,53 @@
+Mask:
+Reference Space               = MNI152
+Dimensions                    = 91x109x91
+Number of within-brain voxels = 262245
+Mask Size                     = Less Conservative (Larger)
+
+Foci:
+Coordinate System             = MNI
+File of foci coordinates      = MNI co-ordinates for GingerALE.txt
+Number of foci                = 69
+Number of experiments         = 16
+Total number of subjects      = 794
+
+ALE - Random Effects, Turkeltaub Non-Additive (HBM, 2012):
+File of ALE voxels            = cluster_stats_ALE.nii
+FWHM minimum value            = 8.482084394970244
+FWHM median value             = 8.973124960180026
+FWHM maximum value            = 10.164010215663069
+Minimum ALE score             = 1.631E-42
+Maximum ALE score             = 0.01365917
+
+P Values: Eickhoff (HBM, 2009)
+File of P values              = cluster_stats_P.nii
+Minimum P value               = 6.713447E-6
+
+Thresholding:
+Threshold Method              = Cluster-level Inference
+Thresholding Value            = 0.05
+Thresholding Permutations     = 1000
+Cluster-Forming Method        = Uncorrected P value
+Cluster-Forming Value         = 0.001
+Volume > Threshold            = 664 mm^3
+Chosen min. cluster size      = 552 mm^3
+Thresholded ALE image         = cluster_stats_C05_1k_ALE.nii
+
+Cluster Analysis:
+ #1: 664 mm^3 from (26,8,-18) to (38,14,-8) centered at (32.2,10.4,-13.3) with 1 peaks
+     with a max value of 0.0137 ALE, 6.713447E-6 P, 4.35 Z at (32,10,-14) 
+   Labels:
+     Hemisphere: 100% Right Cerebrum
+     Lobe: 92.8% Sub-lobar, 7.2% Frontal Lobe
+     Gyrus: 72.3% Extra-Nuclear, 10.8% Lentiform Nucleus, 8.4% Claustrum, 6% Sub-Gyral, 1.2% Inferior Frontal Gyrus, 1.2% Insula
+     Tissue Type: 80.7% White Matter, 19.3% Gray Matter
+     Cell Type: 10.8% Putamen
+
+
+Experiment Table:
+[ 0 1 0 0 1 0 0 0 0 0 0 0 0 1 0 0 ]
+
+Contributors to cluster #1
+1 foci from //Reference=MNI //Fahmy, 2018:Mindfulness-based interventions modulate structural network strength in patients with opioid dependence. 
+1 foci from //Reference=MNI //Hernandez, 2016:Increased Grey Matter Associated with Long-Term Sahaja Yoga Meditation: A Voxel-Based Morphometry Study. 
+1 foci from //Reference=MNI //Murakami, 2012:The Structure of Mindful Brain. 
