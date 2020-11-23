@@ -1,6 +1,6 @@
 # Mindfullness mediation meta-analyses
 
-This repository contains all the data and analysis scripts for the the article "Mindfulness related changes in grey matter: A Systematic Review and Meta-analysis" by Cyril R. Pernet1, Nikolai Belov, Arnaud Delorme & Alison Zammit.
+This repository contains all the data and analysis scripts for the the article "Mindfulness related changes in grey matter: A Systematic Review and Meta-analysis" by Cyril R. Pernet, Nikolai Belov, Arnaud Delorme & Alison Zammit.
 
 # Requirements
 - R to run the statistical meta-analysis
