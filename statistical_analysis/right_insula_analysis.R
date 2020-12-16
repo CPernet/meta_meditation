@@ -53,6 +53,12 @@ m.hksj <- metagen(TE,
                   sm = "SMD")
 print(m.hksj)
 
+adj    = 1-(3/((4*length(m.hksj[[2]]))-9));
+low    = m.hksj[["lower.random"]] / adj;
+d      = m.hksj[["TE.random"]] / adj;
+high   = m.hksj[["upper.random"]] / adj;
+cat("Cohens'd=", d, "CI=[", low, high, "]\n")
+
 # make a forest plot with all data
 forest(m.hksj, layout = "RevMan5", digits.sd = 2)
 

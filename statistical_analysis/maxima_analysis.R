@@ -75,6 +75,12 @@ main_analysis <- metagen(TE,
                          sm = "SMD")
 print(main_analysis)
 
+adj = 1-(3/((4*length(main_analysis[[2]]))-9));
+low    = main_analysis[["lower.random"]] / adj;
+d      = main_analysis[["TE.random"]] / adj;
+high   = main_analysis[["upper.random"]] / adj;
+cat("All studies Cohens'd=", d, "CI=[", low, high, "]\n")
+
 # meta-analysis of direct control vs meditators
 Author <- data[1:18,1]
 results  <- data.frame(Author, TE[1:18], SE[1:18])
@@ -90,6 +96,12 @@ sub_analysis <- metagen(results[1:18,2],
                         prediction = TRUE,
                         sm = "SMD")
 print(sub_analysis)
+
+adj = 1-(3/((4*length(sub_analysis[[2]]))-9));
+low    = sub_analysis[["lower.random"]] / adj;
+d      = sub_analysis[["TE.random"]] / adj;
+high   = sub_analysis[["upper.random"]] / adj;
+cat("Controls vs. Meditators studies Cohens'd=", d, "CI=[", low, high, "]\n")
 
 # make a forest plot with all data
 forest(sub_analysis, layout = "RevMan5", digits.sd = 2)
